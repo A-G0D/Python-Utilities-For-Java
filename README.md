@@ -7,18 +7,18 @@ List of Builtins:
 Built-in Functions
 
 **A**: 
-[abs()](https://github.com/A-G0D/Python-Utilities-For-Java/blob/main/Utilities.java#L13),
+[abs()](https://github.com/A-G0D/Python-Utilities-For-Java/blob/main/Utilities.java#L15-L30),
 aiter(),
-[all()](https://github.com/A-G0D/Python-Utilities-For-Java/blob/main/Utilities.java#L29),
+[all()](https://github.com/A-G0D/Python-Utilities-For-Java/blob/main/Utilities.java#L31-L42),
 anext(),
-[any()](https://github.com/A-G0D/Python-Utilities-For-Java/blob/main/Utilities.java#L41),
+[any()](https://github.com/A-G0D/Python-Utilities-For-Java/blob/main/Utilities.java#L43-L53),
 ascii()
 
 **B**: 
-[bin()](https://github.com/A-G0D/Python-Utilities-For-Java/blob/main/Utilities.java#L54),
-bool(),
+[bin()](https://github.com/A-G0D/Python-Utilities-For-Java/blob/main/Utilities.java#L56-L69),
+[bool()](https://github.com/A-G0D/Python-Utilities-For-Java/blob/main/Utilities.java#L70-L86),
 breakpoint(),
-[bytearray()](https://github.com/A-G0D/Python-Utilities-For-Java/blob/main/Utilities.java#L87),
+[bytearray()](https://github.com/A-G0D/Python-Utilities-For-Java/blob/main/Utilities.java#L87-L124),
 bytes()
 
 **C**: 
