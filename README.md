@@ -18,11 +18,11 @@ ascii()
 [bool()](https://github.com/A-G0D/Python-Utilities-For-Java/blob/main/Utilities.java#L70-L86),
 breakpoint(),
 [bytearray()](https://github.com/A-G0D/Python-Utilities-For-Java/blob/main/Utilities.java#L87-L124),
-bytes()
+[bytes()](https://github.com/A-G0D/Python-Utilities-For-Java/blob/main/Utilities.java#L121-L154)
 
 **C**: 
 callable(),
-chr(),
+[chr()](https://github.com/A-G0D/Python-Utilities-For-Java/blob/main/Utilities.java#L157-L169),
 classmethod(),
 compile(),
 complex()
