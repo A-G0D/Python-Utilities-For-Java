@@ -7,15 +7,15 @@ List of Builtins:
 Built-in Functions
 
 **A**: 
-abs(),
+[abs()](https://github.com/A-G0D/Python-Utilities-For-Java/blob/main/Utilities.java#L13),
 aiter(),
-all(),
+[all()](https://github.com/A-G0D/Python-Utilities-For-Java/blob/main/Utilities.java#L29),
 anext(),
-any(),
+[any()](https://github.com/A-G0D/Python-Utilities-For-Java/blob/main/Utilities.java#L41),
 ascii()
 
 **B**: 
-bin(),
+[bin()](https://github.com/A-G0D/Python-Utilities-For-Java/blob/main/Utilities.java#L54),
 bool(),
 breakpoint(),
 bytearray(),
