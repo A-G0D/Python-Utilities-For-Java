@@ -48,7 +48,9 @@ public class Utilities {
                 for (var i : x) if (i != null) return true;
                 return false;
             }
-            
+    
+    //B
+    
         /* bin(x)
          * Convert an integer number to a binary string prefixed with “0b”. The 
          * result is a valid Python expression.
