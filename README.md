@@ -18,7 +18,7 @@ ascii()
 [bin()](https://github.com/A-G0D/Python-Utilities-For-Java/blob/main/Utilities.java#L54),
 bool(),
 breakpoint(),
-bytearray(),
+[bytearray()](https://github.com/A-G0D/Python-Utilities-For-Java/blob/main/Utilities.java#L87),
 bytes()
 
 **C**: 
