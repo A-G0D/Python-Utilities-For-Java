@@ -3,7 +3,8 @@
 Following along with the python docs for built-in functions and trying to replicate it as closely as possible, many datatypes will differ but I'm trying to encompass as many as possible.
 Link to Docs: [https://docs.python.org/3/library/functions.html](https://docs.python.org/3/library/functions.html)
 
-List of Builtins: 
+### List of Builtins: 
+
 **A**: 
 [abs()](https://github.com/A-G0D/Python-Utilities-For-Java/blob/main/Utilities.java#L15-L30),
 aiter(),
