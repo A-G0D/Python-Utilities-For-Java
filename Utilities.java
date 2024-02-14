@@ -18,13 +18,8 @@ public class Utilities {
          * argument is a complex number, its magnitude is returned.
          */
          
-            //int variant
-            public static int abs(int x) {
-                return Math.abs(x);
-            }
-            
-            //float variant
-            public static double abs(double x) {
+            //Number variant
+            public static int abs(Number x) {
                 return Math.abs(x);
             }
             
@@ -75,7 +70,7 @@ public class Utilities {
          * further. Its only instances are False and True (see Boolean Type - bool).
          */
         
-            //object variant (universal, nonspecific)
+            //object variant
             public static boolean bool(Object x) {
                 if (o == null) return false;
                 if (o instanceof boolean && o == false) return false;
@@ -121,6 +116,55 @@ public class Utilities {
                     byteBuffer.putInt(num);
                 }
                 return byteBuffer.array();
-            }       
+            }
+            
+        /* byte(source=b"")
+         * byte(source, encoding)
+         * byte(source, encoding, errors) #not doing this yet
+         * Return a new “bytes” object which is an immutable sequence of integers 
+         * in the range 0 <= x < 256. bytes is an immutable version of bytearray 
+         * (it has the same non-mutating methods and the same indexing and slicing 
+         * behavior). Accordingly, constructor arguments are interpreted as for 
+         * bytearray(). Bytes objects can also be created with literals, see 
+         * String and Bytes literals. See also Binary Sequence Types — bytes, 
+         * bytearray, memoryview, Bytes Objects, and Bytes and Bytearray Operations.
+         */
+         
+            //I'm going to make bytearray return an arraylist and make byte return an array
         
+         
+            //string variant
+            public static byte[] bytearray(String source) {
+                return source.getBytes(StandardCharsets.UTF_8);
+            }
+            
+            //integer variant
+            public static byte[] bytearray (int source) {
+                return new byte[source];
+            }
+            
+            //iterable variant
+            public static byte[] collectionToBytes(Collection<Integer> collection) {
+                ByteBuffer byteBuffer = ByteBuffer.allocate(collection.size() * Integer.BYTES);
+                for (Integer num : collection) {
+                    byteBuffer.putInt(num);
+                }
+                return byteBuffer.array();
+            }
+            
+    //C        
+        
+        /* chr(i)
+         * Return the string representing a character whose Unicode code point 
+         * is the integer i. For example, chr(97) returns the string 'a', while 
+         * chr(8364) returns the string '€'. This is the inverse of ord(). The 
+         * valid range for the argument is from 0 through 1,114,111 (0x10FFFF in 
+         * base 16). ValueError will be raised if i is outside that range.
+         */
+            
+            //int variant
+            public static String chr(int i) {
+                char c = i;
+                return String.valueOf(c);
+            }
 }
